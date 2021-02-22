@@ -1,0 +1,18 @@
+<h2 class="p-3 bg-primary text-white border rounded">Buscar por capital</h2>
+<hr>
+<div class="row">
+  <div class="col">
+    <app-input (onEnter)="search($event)" placeholder="Introduce una capital">
+    </app-input>
+  </div>
+</div>
+
+<div *ngIf="isError" class="alert alert-danger">
+  No hay resultados con {{ searchTerm }}
+</div>
+
+<div *ngIf="!isError" class="row">
+  <div class="col">
+    <app-countries-table [countries]="countries"></app-countries-table>
+  </div>
+</div>

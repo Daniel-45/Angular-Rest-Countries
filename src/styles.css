@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Houschka";
+    src: url("/assets/fonts/Houscka.ttf");
+  }
+  
+  /* General styles */
+  * {
+    font-family: "Houschka", Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    background-image: url(assets/images/paven.png);
+  }
+  
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+  
+  a {
+      text-decoration: none !important;
+  }
+
+  .small-flag {
+    width: 3.2em;
+  }

@@ -1,4 +1,8 @@
-# AngularPaises
+# Angular Paises
+
+SPA buscar países por nombre, capital o continente consumiendo la API de Rest Countries.
+
+Rest Countries: [https://restcountries.eu/](https://restcountries.eu/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 

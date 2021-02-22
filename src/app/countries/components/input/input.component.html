@@ -1,0 +1,17 @@
+<form (ngSubmit)="search()" autocomplete="off">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">
+          <i class="fa fa-search" (click)="search()"></i>
+        </span>
+      </div>
+      <input 
+        type="text" 
+        name="searchTerm" 
+        class="form-control" 
+        [(ngModel)]="searchTerm"
+        (input)="keyPressed()"
+        [placeholder]="placeholder"
+      >
+    </div>
+</form>
